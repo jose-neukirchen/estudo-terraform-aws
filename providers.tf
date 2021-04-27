@@ -10,9 +10,3 @@ terraform {
 provider "aws" {
   region = "us-east-1" #Região a ser trabalhada
 }
-
-#Configurando segundo provedor
-provider "aws" {
-  alias = "us-east-2"
-  region = "us-east-2" #Região a ser trabalhada
-}
