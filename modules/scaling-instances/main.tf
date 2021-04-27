@@ -19,4 +19,5 @@ resource "aws_autoscaling_group" "bar" {
   lifecycle {
     create_before_destroy = true
   }
+  availability_zones = ["us-east-1c"]
 }
